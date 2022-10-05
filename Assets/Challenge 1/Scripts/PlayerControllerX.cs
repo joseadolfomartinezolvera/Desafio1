@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerControllerX : MonoBehaviour
 {
-    public float speed= 20;
-    public float rotationSpeed;
-    public float verticalInput;
+    public float speed= 20; //variable de velocidad del nuestro avion 
+    public float rotationSpeed; //variable de velocidad de rotacion 
+    public float verticalInput; //variable detecta las teclas presionadas
 
     // Start is called before the first frame update
     void Start()
